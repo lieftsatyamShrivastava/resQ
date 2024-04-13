@@ -120,6 +120,7 @@ function page() {
                         className="p-6 py-3 textarea textarea-bordered textarea-xs w-full text-lg"
                     ></textarea>
                 </div>
+
             </div>
         </div>
     );
