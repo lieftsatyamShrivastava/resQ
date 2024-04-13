@@ -1,7 +1,9 @@
 import React from 'react'
 
-const page = () => {
-
+async function page() {
+  const response = await fetch('http://localhost:8000/doctor_api/doctorchats');
+  const data = await response.json();
+  console.log(data);  
   return (
     <div className='w-full p-10 bg-slate-900 h-[85vh] w-5/12'>
       <div className='flex flex-col justify-end h-full bg-slate-950 w-full rounded-3xl p-5'>
