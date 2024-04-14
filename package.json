@@ -14,13 +14,9 @@
     "react": "^18",
     "react-dom": "^18",
     "react-markdown": "^9.0.1",
-<<<<<<< HEAD
-    "websocket": "^1.0.34"
-=======
     "socket.io": "^4.7.5",
     "socket.io-client": "^4.7.5"
 
->>>>>>> c05c21b3d5c51851833ef55792c2d41f350fb89a
   },
   "devDependencies": {
     "@types/node": "^20",
