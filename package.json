@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --proxy http://10.10.20.118:8182/ai/ http://localhost:3000",
     "lint": "next lint"
   },
   "dependencies": {
     "@kinde-oss/kinde-auth-nextjs": "^2.2.3",
+    "http-proxy-middleware": "^3.0.0",
     "next": "14.2.1",
     "react": "^18",
     "react-dom": "^18",
